@@ -1,0 +1,36 @@
+/*
+uni-ui修改样式
+*/
+
+// 上传文件
+.uni-file-picker__container {
+    display: flex;
+    justify-content: center;
+}
+
+.file-picker__box {
+    height: 188px !important;
+    width: 100vw !important;
+}
+
+.file-picker__box-content {
+    border: none !important;
+}
+
+.checkFile .file-picker__box {
+    height: 100px !important;
+    width: 100px !important;
+}
+
+.checkFile .uni-file-picker__container {
+    justify-content: flex-start !important;
+
+}
+
+.checkFile .file-picker__box-content {
+    height: 180rpx;
+    width: 180rpx;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
